@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "FilePath.h"
+#import "JHNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +19,20 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    ViewController *home = [[ViewController alloc] init];
+    home.title = @"主页";
+    
+    JHNavigationController *navigationController = [[JHNavigationController alloc] initWithRootViewController:home];
+    
+    [self.window setRootViewController:navigationController];
+    
+    [self.window makeKeyAndVisible];
+    
+    NSLog(@"APP_HOME_PATH:%@",[FilePath homePath]);
     return YES;
 }
 

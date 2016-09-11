@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34977FD71D854F2200BEB868 /* NSDictionary+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 34977FB91D854F2200BEB868 /* NSDictionary+Extend.m */; };
+		34977FD81D854F2200BEB868 /* UITableView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 34977FBB1D854F2200BEB868 /* UITableView+Extend.m */; };
+		34977FD91D854F2200BEB868 /* FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34977FBE1D854F2200BEB868 /* FileManager.m */; };
+		34977FDA1D854F2200BEB868 /* FilePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 34977FC01D854F2200BEB868 /* FilePath.m */; };
+		34977FDB1D854F2200BEB868 /* ImageOper.m in Sources */ = {isa = PBXBuildFile; fileRef = 34977FC21D854F2200BEB868 /* ImageOper.m */; };
+		34977FDC1D854F2200BEB868 /* JHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34977FC41D854F2200BEB868 /* JHNavigationController.m */; };
+		34977FDD1D854F2200BEB868 /* SysTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 34977FC61D854F2200BEB868 /* SysTools.m */; };
+		34977FDE1D854F2200BEB868 /* ViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 34977FC81D854F2200BEB868 /* ViewControllerBase.m */; };
+		34977FDF1D854F2200BEB868 /* AnalyseFilePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 34977FCB1D854F2200BEB868 /* AnalyseFilePath.m */; };
+		34977FE01D854F2200BEB868 /* FEData.m in Sources */ = {isa = PBXBuildFile; fileRef = 34977FCD1D854F2200BEB868 /* FEData.m */; };
+		34977FE11D854F2200BEB868 /* FileListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34977FCF1D854F2200BEB868 /* FileListController.m */; };
+		34977FE21D854F2200BEB868 /* HttpConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 34977FD21D854F2200BEB868 /* HttpConnection.m */; };
+		34977FE31D854F2200BEB868 /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 34977FD41D854F2200BEB868 /* HttpRequest.m */; };
+		34977FE41D854F2200BEB868 /* FileListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34977FD61D854F2200BEB868 /* FileListController.xib */; };
 		34F8E08E1D81CD2700B75E1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F8E08D1D81CD2700B75E1E /* main.m */; };
 		34F8E0911D81CD2700B75E1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F8E0901D81CD2700B75E1E /* AppDelegate.m */; };
 		34F8E0941D81CD2700B75E1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F8E0931D81CD2700B75E1E /* ViewController.m */; };
@@ -36,6 +50,33 @@
 
 /* Begin PBXFileReference section */
 		34977FA01D8548B600BEB868 /* MyCodePch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCodePch.pch; sourceTree = "<group>"; };
+		34977FB81D854F2200BEB868 /* NSDictionary+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extend.h"; sourceTree = "<group>"; };
+		34977FB91D854F2200BEB868 /* NSDictionary+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extend.m"; sourceTree = "<group>"; };
+		34977FBA1D854F2200BEB868 /* UITableView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Extend.h"; sourceTree = "<group>"; };
+		34977FBB1D854F2200BEB868 /* UITableView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Extend.m"; sourceTree = "<group>"; };
+		34977FBD1D854F2200BEB868 /* FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
+		34977FBE1D854F2200BEB868 /* FileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManager.m; sourceTree = "<group>"; };
+		34977FBF1D854F2200BEB868 /* FilePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilePath.h; sourceTree = "<group>"; };
+		34977FC01D854F2200BEB868 /* FilePath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilePath.m; sourceTree = "<group>"; };
+		34977FC11D854F2200BEB868 /* ImageOper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageOper.h; sourceTree = "<group>"; };
+		34977FC21D854F2200BEB868 /* ImageOper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageOper.m; sourceTree = "<group>"; };
+		34977FC31D854F2200BEB868 /* JHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHNavigationController.h; sourceTree = "<group>"; };
+		34977FC41D854F2200BEB868 /* JHNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHNavigationController.m; sourceTree = "<group>"; };
+		34977FC51D854F2200BEB868 /* SysTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SysTools.h; sourceTree = "<group>"; };
+		34977FC61D854F2200BEB868 /* SysTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SysTools.m; sourceTree = "<group>"; };
+		34977FC71D854F2200BEB868 /* ViewControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerBase.h; sourceTree = "<group>"; };
+		34977FC81D854F2200BEB868 /* ViewControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerBase.m; sourceTree = "<group>"; };
+		34977FCA1D854F2200BEB868 /* AnalyseFilePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyseFilePath.h; sourceTree = "<group>"; };
+		34977FCB1D854F2200BEB868 /* AnalyseFilePath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyseFilePath.m; sourceTree = "<group>"; };
+		34977FCC1D854F2200BEB868 /* FEData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEData.h; sourceTree = "<group>"; };
+		34977FCD1D854F2200BEB868 /* FEData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEData.m; sourceTree = "<group>"; };
+		34977FCE1D854F2200BEB868 /* FileListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileListController.h; sourceTree = "<group>"; };
+		34977FCF1D854F2200BEB868 /* FileListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileListController.m; sourceTree = "<group>"; };
+		34977FD11D854F2200BEB868 /* HttpConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpConnection.h; sourceTree = "<group>"; };
+		34977FD21D854F2200BEB868 /* HttpConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpConnection.m; sourceTree = "<group>"; };
+		34977FD31D854F2200BEB868 /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
+		34977FD41D854F2200BEB868 /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequest.m; sourceTree = "<group>"; };
+		34977FD61D854F2200BEB868 /* FileListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FileListController.xib; sourceTree = "<group>"; };
 		34F8E0891D81CD2600B75E1E /* MyCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34F8E08D1D81CD2700B75E1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		34F8E08F1D81CD2700B75E1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -79,9 +120,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34977FB71D854F2200BEB868 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				34977FB81D854F2200BEB868 /* NSDictionary+Extend.h */,
+				34977FB91D854F2200BEB868 /* NSDictionary+Extend.m */,
+				34977FBA1D854F2200BEB868 /* UITableView+Extend.h */,
+				34977FBB1D854F2200BEB868 /* UITableView+Extend.m */,
+			);
+			name = Category;
+			path = MyCode/Category;
+			sourceTree = "<group>";
+		};
+		34977FBC1D854F2200BEB868 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				34977FBD1D854F2200BEB868 /* FileManager.h */,
+				34977FBE1D854F2200BEB868 /* FileManager.m */,
+				34977FBF1D854F2200BEB868 /* FilePath.h */,
+				34977FC01D854F2200BEB868 /* FilePath.m */,
+				34977FC11D854F2200BEB868 /* ImageOper.h */,
+				34977FC21D854F2200BEB868 /* ImageOper.m */,
+				34977FC31D854F2200BEB868 /* JHNavigationController.h */,
+				34977FC41D854F2200BEB868 /* JHNavigationController.m */,
+				34977FC51D854F2200BEB868 /* SysTools.h */,
+				34977FC61D854F2200BEB868 /* SysTools.m */,
+				34977FC71D854F2200BEB868 /* ViewControllerBase.h */,
+				34977FC81D854F2200BEB868 /* ViewControllerBase.m */,
+			);
+			name = Common;
+			path = MyCode/Common;
+			sourceTree = "<group>";
+		};
+		34977FC91D854F2200BEB868 /* FileExplore */ = {
+			isa = PBXGroup;
+			children = (
+				34977FCA1D854F2200BEB868 /* AnalyseFilePath.h */,
+				34977FCB1D854F2200BEB868 /* AnalyseFilePath.m */,
+				34977FCC1D854F2200BEB868 /* FEData.h */,
+				34977FCD1D854F2200BEB868 /* FEData.m */,
+				34977FCE1D854F2200BEB868 /* FileListController.h */,
+				34977FCF1D854F2200BEB868 /* FileListController.m */,
+			);
+			name = FileExplore;
+			path = MyCode/FileExplore;
+			sourceTree = "<group>";
+		};
+		34977FD01D854F2200BEB868 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				34977FD11D854F2200BEB868 /* HttpConnection.h */,
+				34977FD21D854F2200BEB868 /* HttpConnection.m */,
+				34977FD31D854F2200BEB868 /* HttpRequest.h */,
+				34977FD41D854F2200BEB868 /* HttpRequest.m */,
+			);
+			name = Http;
+			path = MyCode/Http;
+			sourceTree = "<group>";
+		};
+		34977FD51D854F2200BEB868 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				34977FD61D854F2200BEB868 /* FileListController.xib */,
+			);
+			name = Xib;
+			path = MyCode/Xib;
+			sourceTree = "<group>";
+		};
 		34F8E0801D81CD2600B75E1E = {
 			isa = PBXGroup;
 			children = (
+				34977FB71D854F2200BEB868 /* Category */,
+				34977FBC1D854F2200BEB868 /* Common */,
+				34977FC91D854F2200BEB868 /* FileExplore */,
+				34977FD01D854F2200BEB868 /* Http */,
+				34977FD51D854F2200BEB868 /* Xib */,
 				34F8E08B1D81CD2700B75E1E /* MyCode */,
 				34F8E0A51D81CD2700B75E1E /* MyCodeTests */,
 				34F8E0B01D81CD2700B75E1E /* MyCodeUITests */,
@@ -251,6 +364,7 @@
 				34F8E09C1D81CD2700B75E1E /* LaunchScreen.storyboard in Resources */,
 				34F8E0991D81CD2700B75E1E /* Assets.xcassets in Resources */,
 				34F8E0971D81CD2700B75E1E /* Main.storyboard in Resources */,
+				34977FE41D854F2200BEB868 /* FileListController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +389,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34977FD81D854F2200BEB868 /* UITableView+Extend.m in Sources */,
+				34977FE31D854F2200BEB868 /* HttpRequest.m in Sources */,
+				34977FE11D854F2200BEB868 /* FileListController.m in Sources */,
+				34977FE01D854F2200BEB868 /* FEData.m in Sources */,
+				34977FE21D854F2200BEB868 /* HttpConnection.m in Sources */,
+				34977FDA1D854F2200BEB868 /* FilePath.m in Sources */,
 				34F8E0941D81CD2700B75E1E /* ViewController.m in Sources */,
 				34F8E0911D81CD2700B75E1E /* AppDelegate.m in Sources */,
+				34977FD71D854F2200BEB868 /* NSDictionary+Extend.m in Sources */,
+				34977FDD1D854F2200BEB868 /* SysTools.m in Sources */,
+				34977FDF1D854F2200BEB868 /* AnalyseFilePath.m in Sources */,
 				34F8E08E1D81CD2700B75E1E /* main.m in Sources */,
+				34977FD91D854F2200BEB868 /* FileManager.m in Sources */,
+				34977FDC1D854F2200BEB868 /* JHNavigationController.m in Sources */,
+				34977FDB1D854F2200BEB868 /* ImageOper.m in Sources */,
+				34977FDE1D854F2200BEB868 /* ViewControllerBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
