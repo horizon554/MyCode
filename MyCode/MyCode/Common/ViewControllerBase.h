@@ -10,4 +10,10 @@
 
 @interface ViewControllerBase : UIViewController
 
+- (void)setNavigationBarTranslucent:(BOOL)translucent;
+
+- (void)createLeftBarBtn:(NSString *)leftStr;
+
+- (void)createRightBarBtn:(NSString *)rightStr;
+
 @end

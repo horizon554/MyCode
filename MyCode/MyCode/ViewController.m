@@ -16,7 +16,32 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.navigationController.navigationBar.translucent = NO;
+    
+    UIView *superView = [UIView new];
+    [superView setBackgroundColor:[UIColor redColor]];
+    [self.view addSubview:superView];
+    [self.view setBackgroundColor:[UIColor yellowColor]];
+    [superView mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.center.equalTo(self.view);
+//        make.size.mas_equalTo(CGSizeMake(400, 400));
+        make.left.equalTo(self.view).offset(10);
+        make.top.equalTo(self.view).offset(10);
+        make.bottom.equalTo(self.view).offset(-10);
+        make.right.equalTo(self.view).offset(-10);
+    }];
+    
+    UIButton *testBtn = [[UIButton alloc] init];
+    [testBtn setBackgroundColor:[UIColor blackColor]];
+    [superView addSubview:testBtn];
+     [testBtn mas_makeConstraints:^(MASConstraintMaker *make){
+//         make.edges.equalTo(superView).with.insets(UIEdgeInsetsMake(10, 10, 10, 10));
+         make.left.equalTo(superView).offset(10);
+         make.top.equalTo(superView).offset(10);
+         make.bottom.equalTo(superView).offset(-10);
+         make.right.equalTo(superView).offset(-10);
+     }];
 }
 
 - (void)didReceiveMemoryWarning {
