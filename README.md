@@ -1,3 +1,0 @@
-# MyCode
-boring code
-test
